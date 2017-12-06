@@ -8,6 +8,7 @@ python -m scripts.retrain \
   --output_labels=tf_files/retrained_labels.txt \
   --architecture="${ARCHITECTURE}" \
   --image_dir=/home/ksfalkenstine/raw_images
+  ##--how_many_training_steps
 
 
 ## REMEMBER TO SET 'ARCHITECTURE' VARIABLE
